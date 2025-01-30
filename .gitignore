@@ -1,0 +1,7 @@
+.*
+*.log*
+dist
+dist-ssr
+logs
+node_modules
+!.gitignore

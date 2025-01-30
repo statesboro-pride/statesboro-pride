@@ -1,0 +1,72 @@
+nav.NavBar {
+  padding: 0;
+  background-color: transparent;
+
+  & div.Toolbar {
+    padding: 0;
+
+    & div.Contents {
+      flex-grow: 1;
+      padding: 3vw 4vw;
+
+      & img.Logo {
+        cursor: pointer;
+      }
+
+      & div.Items {
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+    }
+
+    & div.Contents.Contents-md {
+      & img.Logo {
+        width: 105px;
+        height: 105px;
+      }
+
+      button.Button, button.SocialMediaButton {
+        min-width: fit-content !important;
+        margin: auto 0;
+        padding: 0;
+        color: white;
+        display: inline-block;
+        & p {
+          text-transform: none;
+          font-size: 1.2rem;
+        }
+      }
+      button.Button:not(:first-child) {
+        margin-left: 1.177vw;
+      }
+      button.Button.Button-selected {
+        border-bottom: 1px solid white;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      button.SocialMediaButton {
+        margin-left: 1.3vw;
+      }
+      button.SocialMediaButton.First {
+        margin-left: 3.5vw;
+      }
+    }
+
+    & div.Contents.Contents-xs {
+      button.Button {
+        size: large;
+        color: inherit;
+      }
+    }
+  }
+}
+
+#NavBarMenu {
+  li.SocialMediaButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

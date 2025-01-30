@@ -1,0 +1,36 @@
+main {
+  & div.ContentsWrapper {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding-bottom: 6.6vmax;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 6.6vmax;
+    position: relative;
+  }
+
+  p,
+  a {
+    font-weight: 300;
+    line-height: 1.8em;
+    letter-spacing: 0.02em;
+  }
+  @media screen and (max-width: 767px) and (orientation: portrait) {
+    p {
+      font-size: calc((1.1 - 1) * calc(0.012 * min(100vh, 900px)) + 1rem);
+    }
+  }
+  @media screen and (min-width: 768px), screen and (max-width: calc(1512px - 1px)) and (orientation: landscape) {
+    p {
+      font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    }
+  }
+  @media screen and (min-width: 1512px) {
+    p {
+      font-size: calc(1.1 * 1rem);
+    }
+  }
+}
