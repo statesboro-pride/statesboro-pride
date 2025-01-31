@@ -1,6 +1,7 @@
 import React from "react";
 import PageHeader from "../layout/PageHeader";
 import PageContents from "../layout/PageContents";
+import LoremIpsum from "./LoremIpsum";
 
 export default function Events() {
   return (
@@ -8,7 +9,9 @@ export default function Events() {
       <PageHeader imgSrc="/images/header-events.jpg">
         <h1>Upcoming Events</h1>
       </PageHeader>
-      <PageContents>Events</PageContents>
+      <PageContents>
+        <LoremIpsum/>
+      </PageContents>
     </React.Fragment>
   );
 }

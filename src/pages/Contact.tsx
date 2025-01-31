@@ -1,6 +1,7 @@
 import React from "react";
 import PageHeader from "../layout/PageHeader";
 import PageContents from "../layout/PageContents";
+import LoremIpsum from "./LoremIpsum";
 
 export default function Contact() {
   return (
@@ -8,7 +9,9 @@ export default function Contact() {
       <PageHeader imgSrc="/images/header-contact.jpg">
         <h1>Contact Us</h1>
       </PageHeader>
-      <PageContents>Contact</PageContents>
+      <PageContents>
+        <LoremIpsum />
+      </PageContents>
     </React.Fragment>
   );
 }

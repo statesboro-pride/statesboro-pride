@@ -1,6 +1,7 @@
 import React from "react";
 import PageHeader from "../layout/PageHeader";
 import PageContents from "../layout/PageContents";
+import LoremIpsum from "./LoremIpsum";
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
           </a>
         </p>
       </PageHeader>
-      <PageContents>Home</PageContents>
+      <PageContents>
+        <LoremIpsum />
+      </PageContents>
     </React.Fragment>
   );
 }
