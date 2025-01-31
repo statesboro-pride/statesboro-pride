@@ -11,7 +11,8 @@ type AppNavMenuProps = {
   children: React.ReactNode;
 };
 
-export default function NavBarMenu({ id, anchorElNav, onOpen, onClose, children }: AppNavMenuProps) {
+export default function NavBarMenu(props: AppNavMenuProps) {
+  const { id, anchorElNav, onOpen, onClose, children } = props;
   const anchorEl = anchorElNav !== false ? anchorElNav : null;
   return (
     <React.Fragment>
