@@ -1,13 +1,11 @@
-import React from "react";
-
-const Home = React.lazy(() => import("./Home"));
-const About = React.lazy(() => import("./About"));
-const You = React.lazy(() => import("./You"));
-const Resources = React.lazy(() => import("./Resources"));
-const Events = React.lazy(() => import("./Events"));
-const Partnerships = React.lazy(() => import("./Partnerships"));
-const Contact = React.lazy(() => import("./Contact"));
-const NotFound = React.lazy(() => import("./NotFound"));
+import Home from "./Home";
+import About from "./About";
+import You from "./You";
+import Resources from "./Resources";
+import Events from "./Events";
+import Partnerships from "./Partnerships";
+import Contact from "./Contact";
+import NotFound from "./NotFound";
 
 export default function Page({ name }: { name: string }) {
   switch (name) {
