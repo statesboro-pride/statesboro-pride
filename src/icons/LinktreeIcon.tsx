@@ -1,17 +1,9 @@
-import SvgIcon from "@mui/material/SvgIcon";
+import SvgIcon, { type SvgIconProps } from "@mui/material/SvgIcon";
 
-export default function LinktreeIcon() {
+export default function LinktreeIcon({ style, ...props }: SvgIconProps) {
   return (
-    <SvgIcon>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 48 48"
-        width="24"
-        style={{ width: "24px", height: "24px" }}
-        strokeWidth={1.5}
-        stroke="currentColor"
-      >
+    <SvgIcon {...props} style={{ width: "24px", height: "24px", ...style }}>
+      <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
         <path
           fill="currentColor"
           strokeLinecap="round"
