@@ -1,16 +1,14 @@
-import React from "react";
-import Box from "@mui/material/Box";
+import Box, { type BoxProps } from "@mui/material/Box";
 import "./PageContents.css";
 
-export type PageContentsProps = {
-  children?: React.ReactNode | undefined;
-};
+export type PageContentsProps = BoxProps;
 
-export default function PageContents({ children }: PageContentsProps) {
+export default function PageContents(props: PageContentsProps) {
+  const { className, ...p } = props;
   return (
     <Box component="main">
       <Box className="ContentsWrapper">
-        <Box className="Contents">{children}</Box>
+        <Box className={"Contents" + (className ? ` ${className}` : "")} {...p} />
       </Box>
     </Box>
   );
