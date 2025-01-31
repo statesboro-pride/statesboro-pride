@@ -6,7 +6,7 @@ export default function useRedirect() {
   const redirect = React.useCallback(
     async (to: string) => {
       if (to.startsWith("http")) {
-        window.location.replace(to);
+        window?.open(to, "_blank")?.focus();
         return Promise.resolve();
       }
       await navigate(to);
