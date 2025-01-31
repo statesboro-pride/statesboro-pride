@@ -1,6 +1,6 @@
 import React from "react";
 import IconButton from "@mui/material/IconButton";
-import SocialMediaIcon from "../icons/SocialMediaIcon";
+import SocialMediaIcon from "../../icons/SocialMediaIcon";
 
 export type SocialMediaButtonProps = {
   label: string;
