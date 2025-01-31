@@ -22,6 +22,26 @@ footer.PageFooter {
     max-width: 1400px;
   }
 
+  .SocialMediaButton.First {
+    padding-left: 0;
+  }
+
+  .ContentsGrid {
+    width: 75%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px) {
+    .ContentsGrid {
+      width: 75%;
+    }
+  }
+  @media screen and (max-width: 767px)  {
+    .ContentsGrid {
+      width: 100%;
+    }
+  }
+
   h3 {
     line-height: calc(1.4em * (1 + (1 - 2.2) / 25));
     margin: 0;
