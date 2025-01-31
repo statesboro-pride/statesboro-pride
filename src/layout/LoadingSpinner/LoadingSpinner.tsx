@@ -1,9 +1,12 @@
 import React from "react";
 import "./LoadingSpinner.css";
 
-export default function LoadingSpinner({ children }: { children?: React.ReactNode }) {
+export type LoadingSpinnerProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
+
+export default function LoadingSpinner(props: LoadingSpinnerProps) {
+  const { className, children, ...p } = props;
   return (
-    <div className="loading-spinner">
+    <div className={"loading-spinner" + (className ? ` ${className}` : "")} {...p}>
       <div>
         <span>
           <svg viewBox="22 22 44 44">
