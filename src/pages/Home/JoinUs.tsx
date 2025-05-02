@@ -14,13 +14,13 @@ export function JoinUs() {
           style={{ maxWidth: "100%" }}
         />
       </div>
-      <Box sx={{ textAlign: { xs: "center", md: "inherit"}, width: "100%" }}>
+      <Box sx={{ textAlign: { xs: "center", md: "inherit" }, width: "100%" }}>
         <BannerText>Join us.</BannerText>
         <p>
           No matter how you identify, we're holding space for you. Join an inclusive, supportive community based in
           Statesboro-Bulloch County and let us celebrate you.
         </p>
-        <Link href="/you" aria-label="Use this form to reach out so that we can welcome you.">
+        <Link href="/contact" aria-label="Use this form to reach out so that we can welcome you.">
           <Button size="large" variant="contained" sx={{ minWidth: "40%", backgroundColor: "black" }}>
             Join Boro Pride
           </Button>
