@@ -1,6 +1,6 @@
 import { type FormInputs, type FormValues } from "./useFormInputs";
 
-export default function handleSubmit(inputs: FormInputs) {
+export function handleSubmit(inputs: FormInputs) {
   const values = Object.fromEntries(
     Object.entries(inputs).map(([name, value]) => [name, encodeURIComponent((value.current?.value ?? "") as string)])
   ) as FormValues;
@@ -19,3 +19,5 @@ export default function handleSubmit(inputs: FormInputs) {
 
   window.location.replace(url.toString());
 }
+
+export default handleSubmit;

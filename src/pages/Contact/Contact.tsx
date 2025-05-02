@@ -3,6 +3,7 @@ import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import ContactForm from "./ContactForm";
 
 export function Contact() {
   return (
@@ -15,16 +16,18 @@ export function Contact() {
 
       <Body>
         <Typography variant="h2">Contact us</Typography>
-        <p>Statesboro Pride is an all volunteer organization, so the best way to reach us is through e-mail:</p>
+
         <p>
-          <a href="mailto:statesboropride@gmail.com">statesboropride@gmail.com</a>
+          Whether you identify as a member of the LGBTQIA+ community, you're our ally, or if you're still figuring it
+          out&mdash;you have a home with us. We want your support and we want to support you, too. Use the form below to
+          reach out so that we can welcome you.
         </p>
 
         <p>
-          You can also join our Rainbows over the Boro Discord Server here: <a href="">Rainbows Over The Boro</a>
+          <em>*Please allow 72 hours for response, but be sure to check your spam folder*</em>
         </p>
 
-        <p>*Please allow 72 hours for response, but be sure to check your spam folder*</p>
+        <ContactForm />
       </Body>
 
       <Footer />

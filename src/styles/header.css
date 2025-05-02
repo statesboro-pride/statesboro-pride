@@ -82,8 +82,8 @@
 .header-toolbar-item.spacer {
   padding: 0;
   margin: 0;
-  min-width: 2vw; 
-  width: 2vw;
+  min-width: 1vw; 
+  width: 1vw;
 }
 
 .header-toolbar-item.icon {
