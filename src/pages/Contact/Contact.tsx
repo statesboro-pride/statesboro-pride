@@ -10,7 +10,7 @@ export function Contact() {
     <>
       <title>Contact &mdash; Boro Pride</title>
 
-      <Header backgroundImage={["/images/header/header-contact-xs.webp", "/images/header/header-contact.webp"]}>
+      <Header backgroundImage={["/images/header/header-you-xs.webp", "/images/header/header-you.webp"]}>
         <BannerText>Have a question or comment? Here's how to reach us!</BannerText>
       </Header>
 
