@@ -9,7 +9,7 @@ export function DesktopToolbar() {
       <DesktopToolbarItem title="About" href="/about" label="Learn more about Boro Pride" />
       <DesktopToolbarItem title="Resources" href="/resources" label="Resources to help" />
       <DesktopToolbarItem title="Events" href="/events" label="See upcoming happenings and events" />
-      <DesktopToolbarItem title="Volunteer" href="/volunteer" label="Volunteer with us!" />
+      <DesktopToolbarItem title="Volunteer" href="/volunteer" target="_blank" label="Volunteer with us!" />
       <DesktopToolbarItem title="Partnerships" href="/partnerships" label="Learn how you can partner with Boro Pride" />
       <DesktopToolbarItem title="Contact" href="/contact" label="Have a question? Contact us!" />
       <div className="header-toolbar-item spacer" />
