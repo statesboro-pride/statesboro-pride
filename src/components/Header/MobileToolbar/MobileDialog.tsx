@@ -31,20 +31,23 @@ export function MobileDialog(props: MobileDialogProps) {
         <MobileToolbarItem href="/about" label="Learn more about Boro Pride">
           About
         </MobileToolbarItem>
-        <MobileToolbarItem href="/you" label="Use this form to reach out so that we can welcome you.">
-          You
-        </MobileToolbarItem>
         <MobileToolbarItem href="/resources" label="Resources to help">
           Resources
         </MobileToolbarItem>
         <MobileToolbarItem href="/events" label="See upcoming happenings and events">
           Events
         </MobileToolbarItem>
+        <MobileToolbarItem href="/volunteer" label="Volunteer with us!">
+          Volunteer
+        </MobileToolbarItem>
         <MobileToolbarItem href="/partnerships" label="Learn how you can partner with Boro Pride">
           Partnerships
         </MobileToolbarItem>
         <MobileToolbarItem href="/contact" label="Have a question? Contact us!">
           Contact
+        </MobileToolbarItem>
+        <MobileToolbarItem href="/donate" label="Donate to Boro Pride">
+          Donate
         </MobileToolbarItem>
         <Stack direction="row" spacing={5} className="social-media">
           <MobileToolbarItem href="/instagram" label="Instagram">

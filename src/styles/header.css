@@ -68,7 +68,7 @@
     font-size: 1.25em;
   }
   & h2 {
-    font-size: 5vh; /* { xs: "5vh", sm: "6vh", md: "7vh", } */
+    font-size: 4.5vh; /* { xs: "5vh", sm: "6vh", md: "7vh", } */
   }
 }
 

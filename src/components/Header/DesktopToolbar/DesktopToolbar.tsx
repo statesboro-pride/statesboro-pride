@@ -1,14 +1,15 @@
 import Stack from "@mui/material/Stack";
 import * as Icons from "../../Icons";
 import DesktopToolbarItem from "./DesktopToolbarItem";
+import { Button, Typography } from "@mui/material";
 
 export function DesktopToolbar() {
   return (
     <Stack className="header-toolbar desktop" direction="row" spacing={0}>
       <DesktopToolbarItem title="About" href="/about" label="Learn more about Boro Pride" />
-      <DesktopToolbarItem title="You" href="/you" label="Use this form to reach out so that we can welcome you." />
       <DesktopToolbarItem title="Resources" href="/resources" label="Resources to help" />
       <DesktopToolbarItem title="Events" href="/events" label="See upcoming happenings and events" />
+      <DesktopToolbarItem title="Volunteer" href="/volunteer" label="Volunteer with us!" />
       <DesktopToolbarItem title="Partnerships" href="/partnerships" label="Learn how you can partner with Boro Pride" />
       <DesktopToolbarItem title="Contact" href="/contact" label="Have a question? Contact us!" />
       <div className="header-toolbar-item spacer" />
@@ -20,6 +21,12 @@ export function DesktopToolbar() {
       </DesktopToolbarItem>
       <DesktopToolbarItem icon title="Facebook" href="/facebook" target="_blank" label="Facebook">
         <Icons.Facebook className="header-icon" />
+      </DesktopToolbarItem>
+      <div className="header-toolbar-item spacer" />
+      <DesktopToolbarItem title="Donate" href="/donate" target="_blank" label="Donate to Boro Pride">
+        <Button variant="contained" color="error" style={{ textTransform: "none" }}>
+          <Typography>Donate</Typography>
+        </Button>
       </DesktopToolbarItem>
     </Stack>
   );
