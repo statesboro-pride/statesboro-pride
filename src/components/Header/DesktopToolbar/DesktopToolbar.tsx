@@ -1,7 +1,8 @@
+import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 import * as Icons from "../../Icons";
 import DesktopToolbarItem from "./DesktopToolbarItem";
-import { Button, Typography } from "@mui/material";
 
 export function DesktopToolbar() {
   return (
