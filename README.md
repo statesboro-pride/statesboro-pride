@@ -1,1 +1,3 @@
-# statesboro-pride-web
+# statesboro-pride/statesboro-pride
+
+Official website for Statesboro Pride

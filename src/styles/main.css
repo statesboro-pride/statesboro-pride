@@ -1,0 +1,22 @@
+main {
+  padding: 4vw;
+
+  & article {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 3.3vmax 4vw;
+    max-width: 1440px;
+
+    & div.content-wrapper {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (width >= 900px) {
+  main > article > div.content-wrapper {
+    width: 75%;
+  }
+}

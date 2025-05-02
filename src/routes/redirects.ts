@@ -1,0 +1,29 @@
+export const redirects: [string, string][] = [
+  // Internal
+  ["/", "/home"],
+
+  // Social Media
+  ["/instagram", "https://www.instagram.com/statesboropride"],
+  ["/bluesky", "https://bsky.app/profile/statesboropride.bsky.social"],
+  ["/facebook", "https://www.facebook.com/StatesboroPride"],
+  ["/discord", "https://discord.gg/f2BsHPpgap"],
+
+  // Linktree
+  ["/linktree", "https://linktr.ee/statesboropride"],
+  ["/links", "https://linktr.ee/statesboropride"],
+
+  // Forms
+  ["/volunteer", "https://docs.google.com/forms/d/e/1FAIpQLSdPqyZaFdN67yi5iOndEEno76UEZfyH4NcwDflFMcAqOu8cUQ/viewform"],
+  ["/vendor", "https://docs.google.com/forms/d/e/1FAIpQLSeHz6okrSX5gHcgohns1K6LsHcHNo-OLMe0pAJs0-btTVyW_Q/viewform"],
+  ["/pageant", "https://docs.google.com/forms/d/e/1FAIpQLScThLfu7MWLbKmoXDmZYnNv9ksedo_08RFZ51Vm01s0FMkbgg/viewform"],
+  ["/nominate", "https://docs.google.com/forms/d/e/1FAIpQLSeE4fUvElr96bo4hoY8MNFExkkZdwf8vGrUGeo9cxykXXj-xg/viewform"],
+
+  // Donations & Shop
+  ["/shop", "https://statesboro-pride.printify.me"],
+  ["/donate", "https://donorbox.org/25-in-2025-1"],
+  ["/cashapp", "https://cash.app/$StatesboroPride"],
+  ["/paypal", "https://www.paypal.com/paypalme/StatesboroPride912"],
+  ["/venmo", "https://venmo.com/StatesboroPride"],
+];
+
+export default redirects;
