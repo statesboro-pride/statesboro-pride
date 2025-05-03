@@ -1,4 +1,5 @@
 import AppBar from "@mui/material/AppBar";
+import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
@@ -34,20 +35,22 @@ export function MobileDialog(props: MobileDialogProps) {
         <MobileToolbarItem href="/resources" label="Resources to help">
           Resources
         </MobileToolbarItem>
+        <MobileToolbarItem href="/get-involved" label="Get involved with Boro Pride">
+          Get Involved
+        </MobileToolbarItem>
         <MobileToolbarItem href="/events" label="See upcoming happenings and events">
           Events
-        </MobileToolbarItem>
-        <MobileToolbarItem href="/volunteer" label="Volunteer with us!">
-          Volunteer
-        </MobileToolbarItem>
-        <MobileToolbarItem href="/partnerships" label="Learn how you can partner with Boro Pride">
-          Partnerships
         </MobileToolbarItem>
         <MobileToolbarItem href="/contact" label="Have a question? Contact us!">
           Contact
         </MobileToolbarItem>
+        <MobileToolbarItem href="/shop" label="Buy Boro Pride-branded stuff!">
+          Shop
+        </MobileToolbarItem>
         <MobileToolbarItem href="/donate" label="Donate to Boro Pride">
-          Donate
+          <Button variant="contained" color="error" size="large" style={{ textTransform: "none" }}>
+            Donate
+          </Button>
         </MobileToolbarItem>
         <Stack direction="row" spacing={5} className="social-media">
           <MobileToolbarItem href="/instagram" label="Instagram">

@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { homeStyle as style } from "./styles";
 import ShopBoroPride from "./ShopBoroPride";
-import JoinUs from "./JoinUs";
+import GetInvolved from "./GetInvolved";
 import GetSupport from "./GetSupport";
 import Partners from "./Partners";
 import AudreLordeQuote from "./AudreLordeQuote";
@@ -32,7 +32,7 @@ export function Home() {
 
       <Body>
         <Stack direction="column" spacing={{ xs: 5, lg: 10 }}>
-          <JoinUs />
+          <GetInvolved />
           <GetSupport />
           <ShopBoroPride />
           <Newsletter />

@@ -4,7 +4,7 @@ import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import BannerText from "../../components/BannerText";
 
-export function JoinUs() {
+export function GetInvolved() {
   return (
     <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 10 }}>
       <div style={{ width: "100%" }}>
@@ -15,14 +15,14 @@ export function JoinUs() {
         />
       </div>
       <Box sx={{ textAlign: { xs: "center", md: "inherit" }, width: "100%" }}>
-        <BannerText>Join us.</BannerText>
+        <BannerText>Get Involved.</BannerText>
         <p>
-          No matter how you identify, we're holding space for you. Join an inclusive, supportive community based in
-          Statesboro-Bulloch County and let us celebrate you.
+          No matter how you identify, we're holding space for you. Get involved in an inclusive, supportive community
+          based in Statesboro-Bulloch County and let us celebrate you.
         </p>
-        <Link href="/contact" aria-label="Use this form to reach out so that we can welcome you.">
+        <Link href="/get-involved" aria-label="Get involved with Boro Pride">
           <Button size="large" variant="contained" sx={{ minWidth: "40%", backgroundColor: "black" }}>
-            Join Boro Pride
+            Get Involved
           </Button>
         </Link>
       </Box>
@@ -30,4 +30,4 @@ export function JoinUs() {
   );
 }
 
-export default JoinUs;
+export default GetInvolved;
