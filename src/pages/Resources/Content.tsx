@@ -120,7 +120,7 @@ export const Education: ResourceLink[] = [
 export const Parenting: ResourceLink[] = [
   {
     title: "Colage",
-    href: "https://www.colage.org/about/",
+    href: "https://www.colage.org/",
     description: <>Dedicated to nurturing, supporting and empowering people with LGBTQ+ caregivers</>,
   },
   {
