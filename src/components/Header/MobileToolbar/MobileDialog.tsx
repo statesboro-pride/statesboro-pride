@@ -50,7 +50,7 @@ export function MobileDialog(props: MobileDialogProps) {
         </MobileToolbarItem>
         <MobileToolbarItem href="/donate" label="Donate to Boro Pride">
           <Button variant="contained" color="error"  style={{ textTransform: "none" }}>
-            <Typography variant="h2" component="div">
+            <Typography variant="h3" component="div">
               Donate
             </Typography>
           </Button>

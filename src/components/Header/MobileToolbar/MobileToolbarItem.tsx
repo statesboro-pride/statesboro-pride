@@ -10,7 +10,7 @@ export function MobileToolbarItem(props: StackItemLinkProps) {
   return (
     <div className="header-toolbar-item-container">
       <a href={props.href} className="header-toolbar-item mobile" aria-label={props.label}>
-        <Typography variant="h2" component="div">
+        <Typography variant="h3" component="div">
           {props.children}
         </Typography>
       </a>
