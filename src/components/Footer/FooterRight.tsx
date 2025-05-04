@@ -20,7 +20,7 @@ export function FooterRight() {
         </Link>
         <Link href="/get-involved" aria-label="Get involved with Boro Pride">
           <Typography variant="h5" component="p">
-            Get Involed
+            Get Involved
           </Typography>
         </Link>
         <Link href="/events" aria-label="See upcoming happenings and events">
