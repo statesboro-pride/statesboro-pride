@@ -18,9 +18,24 @@ export function FooterRight() {
             Resources
           </Typography>
         </Link>
+        <Link href="/get-involved" aria-label="Get involved with Boro Pride">
+          <Typography variant="h5" component="p">
+            Get Involed
+          </Typography>
+        </Link>
+        <Link href="/events" aria-label="See upcoming happenings and events">
+          <Typography variant="h5" component="p">
+            Events
+          </Typography>
+        </Link>
         <Link href="/contact" aria-label="Have a question? Contact us!">
           <Typography variant="h5" component="p">
-            Contact Us
+            Contact
+          </Typography>
+        </Link>
+        <Link href="/shop" aria-label="Buy Boro Pride-branded stuff!">
+          <Typography variant="h5" component="p">
+            Shop
           </Typography>
         </Link>
         <Stack direction="row" spacing={2} className="social-media" justifyContent={{ xs: "center", md: "inherit" }}>

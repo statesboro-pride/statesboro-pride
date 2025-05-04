@@ -8,7 +8,7 @@ export function Footer() {
     <Box className="footer" component="footer">
       <Box className="footer-container" component="section">
         <Box className="footer-content-wrapper">
-          <Grid className="footer-content" container direction="row">
+          <Grid className="footer-content" container direction={{xs: "column-reverse", sm: "row"}}>
             <FooterLeft />
             <FooterRight />
           </Grid>
