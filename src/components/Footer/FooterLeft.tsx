@@ -21,10 +21,10 @@ const transHeart: CSSProperties = {
 export function FooterLeft() {
   return (
     <Grid size={{ xs: 12, md: 10 }} className="footer-content-left">
-      <Typography variant="h2">
+      <Typography variant="h2" component="div" sx={{textAlign: {xs: "center", md: "inherit"}}} className="h2">
         You belong here. <PrideHeart style={prideHeart} />
       </Typography>
-      <Typography>
+      <Typography component="div" sx={{textAlign: {xs: "center", md: "inherit"}}}>
         Site design by Folly.
         <br />
         <small>
