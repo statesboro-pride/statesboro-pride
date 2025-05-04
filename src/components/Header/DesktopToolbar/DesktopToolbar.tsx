@@ -25,7 +25,7 @@ export function DesktopToolbar() {
       </DesktopToolbarItem>
       <div className="header-toolbar-item spacer" />
       <DesktopToolbarItem title="Donate" href="/donate" target="_blank" label="Donate to Boro Pride">
-        <Button variant="contained" color="error" style={{ textTransform: "none" }}>
+        <Button variant="contained" color="error" size="large" style={{ textTransform: "none" }}>
           <Typography>Donate</Typography>
         </Button>
       </DesktopToolbarItem>

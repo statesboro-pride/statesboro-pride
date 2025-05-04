@@ -4,6 +4,7 @@ import Dialog from "@mui/material/Dialog";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 import CloseIcon from "@mui/icons-material/Close";
 import * as Icons from "../../Icons";
 import MobileToolbarItem from "./MobileToolbarItem";
@@ -48,8 +49,10 @@ export function MobileDialog(props: MobileDialogProps) {
           Shop
         </MobileToolbarItem>
         <MobileToolbarItem href="/donate" label="Donate to Boro Pride">
-          <Button variant="contained" color="error" size="large" style={{ textTransform: "none" }}>
-            Donate
+          <Button variant="contained" color="error"  style={{ textTransform: "none" }}>
+            <Typography variant="h2" component="div">
+              Donate
+            </Typography>
           </Button>
         </MobileToolbarItem>
         <Stack direction="row" spacing={5} className="social-media">
