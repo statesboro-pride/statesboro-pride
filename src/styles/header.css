@@ -82,7 +82,7 @@
 .header-toolbar-item.spacer {
   padding: 0;
   margin: 0;
-  min-width: 1vw; 
+  min-width: 24px; 
   width: 1vw;
 }
 

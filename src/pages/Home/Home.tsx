@@ -16,6 +16,8 @@ import Newsletter from "./Newsletter";
 export function Home() {
   return (
     <>
+      <link rel="preload" fetchPriority="high" as="image" href="/images/header/header-home.webp" type="image/webp" />
+
       <title>Boro Pride</title>
 
       <Header backgroundImage="/images/header/header-home.webp">

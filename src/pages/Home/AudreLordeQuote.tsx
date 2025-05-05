@@ -11,10 +11,12 @@ export function AudreLordeQuote() {
         padding: "10px",
       }}
     >
-      <Typography variant="h3" className="rainbow-letters">
+      <Typography variant="h3" component="div" className="rainbow-letters">
         "We are powerful because we have survived."
       </Typography>
-      <Typography variant="h5">&mdash;Audre Lorde</Typography>
+      <Typography variant="h5" component="div">
+        &mdash;Audre Lorde
+      </Typography>
     </Stack>
   );
 }
