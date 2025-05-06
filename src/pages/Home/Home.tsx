@@ -15,11 +15,9 @@ import Newsletter from "./Newsletter";
 export function Home() {
   return (
     <>
-      <link rel="preload" fetchPriority="high" as="image" href="/images/header/header-home.webp" type="image/webp" />
-
       <title>Boro Pride</title>
 
-      <Header backgroundImage="/images/header/header-home.webp">
+      <Header backgroundImage={["/images/header/header-home-xs.webp", "/images/header/header-home.webp"]}>
         <BannerText sx={style.bannerText}>
           NEW! We now have an online store where you can help support Boro Pride!
         </BannerText>
