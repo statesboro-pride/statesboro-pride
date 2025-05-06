@@ -1,5 +1,4 @@
 import Body from "../../components/Body";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import BannerText from "../../components/BannerText";
 
@@ -25,8 +24,6 @@ export function Events() {
       <Body>
         <iframe src={url.toString()} style={{ border: 0, minHeight: "600px" }} width="100%" height="100%"></iframe>
       </Body>
-
-      <Footer />
     </>
   );
 }

@@ -1,7 +1,6 @@
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import { createRoot } from "react-dom/client";
-
-const App = lazy(() => import("./App"));
+import App from "./App";
 
 createRoot(document.getElementById("root")!).render(
   <Suspense>

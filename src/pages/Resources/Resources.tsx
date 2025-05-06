@@ -3,7 +3,6 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import * as Content from "./Content";
 import ResourceList from "./ResourceList";
@@ -45,8 +44,6 @@ export function Resources() {
           <ResourceList title="Allyship" items={Content.Allyship} />
         </Stack>
       </Body>
-
-      <Footer />
     </>
   );
 }

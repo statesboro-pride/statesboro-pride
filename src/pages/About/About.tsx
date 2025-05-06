@@ -2,7 +2,6 @@ import type * as MUI from "@mui/material";
 import Typography from "@mui/material/Typography";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 const bannerText: MUI.SxProps<MUI.Theme> = {
@@ -32,8 +31,6 @@ export function About() {
           Statesboro-Bulloch County, Georgia, and the surrounding areas.
         </Typography>
       </Body>
-
-      <Footer />
     </>
   );
 }

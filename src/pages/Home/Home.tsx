@@ -4,7 +4,6 @@ import Typography from "@mui/material/Typography";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import { homeStyle as style } from "./styles";
 import ShopBoroPride from "./ShopBoroPride";
 import GetInvolved from "./GetInvolved";
@@ -42,8 +41,6 @@ export function Home() {
           <AudreLordeQuote />
         </Stack>
       </Body>
-
-      <Footer />
     </>
   );
 }

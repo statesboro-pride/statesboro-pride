@@ -9,7 +9,6 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 export function GetInvolved() {
@@ -105,8 +104,6 @@ export function GetInvolved() {
           </Grid>
         </Grid>
       </Body>
-
-      <Footer />
     </>
   );
 }

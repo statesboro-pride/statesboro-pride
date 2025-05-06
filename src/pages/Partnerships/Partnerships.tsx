@@ -1,7 +1,6 @@
 import Stack from "@mui/material/Stack";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
@@ -73,8 +72,6 @@ export function Partnerships() {
           </Stack>
         </Paper>
       </Body>
-
-      <Footer />
     </>
   );
 }

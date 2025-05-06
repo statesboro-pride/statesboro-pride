@@ -2,7 +2,6 @@ import type * as MUI from "@mui/material";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 const bannerText: MUI.SxProps<MUI.Theme> = {
   textAlign: "center",
@@ -29,8 +28,6 @@ export function NotFound() {
           You can return to our homepage by <a href="/">clicking here</a>.
         </p>
       </Body>
-
-      <Footer />
     </>
   );
 }

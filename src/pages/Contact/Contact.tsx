@@ -1,7 +1,6 @@
 import Typography from "@mui/material/Typography";
 import BannerText from "../../components/BannerText";
 import Body from "../../components/Body";
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ContactForm from "./ContactForm";
 
@@ -29,8 +28,6 @@ export function Contact() {
 
         <ContactForm />
       </Body>
-
-      <Footer />
     </>
   );
 }
