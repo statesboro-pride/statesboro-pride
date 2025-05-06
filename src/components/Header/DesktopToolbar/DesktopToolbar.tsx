@@ -24,11 +24,18 @@ export function DesktopToolbar() {
         <Icons.Facebook className="header-icon" />
       </DesktopToolbarItem>
       <div className="header-toolbar-item spacer" />
-      <DesktopToolbarItem title="Donate" href="/donate" target="_blank" label="Donate to Boro Pride">
-        <Button variant="contained" color="error" size="large" style={{ textTransform: "none" }}>
-          <Typography>Donate</Typography>
-        </Button>
-      </DesktopToolbarItem>
+      <Button
+        variant="contained"
+        color="error"
+        size="large"
+        style={{ textTransform: "none", padding: "8px 22px" }}
+        className="header-toolbar-item"
+        href="/donate"
+        target="_blank"
+        aria-label="Donate to Boro Pride"
+      >
+        <Typography>Donate</Typography>
+      </Button>
     </Stack>
   );
 }
