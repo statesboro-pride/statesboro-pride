@@ -1,9 +1,16 @@
-import { Suspense } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App";
+import Footer from "./components/Footer";
+import RouterProvider from "./routes";
+import "./styles";
 
 createRoot(document.getElementById("root")!).render(
-  <Suspense>
-    <App />
-  </Suspense>
+  <StrictMode>
+    <Suspense>
+      <CssBaseline />
+      <RouterProvider />
+      <Footer />
+    </Suspense>
+  </StrictMode>
 );

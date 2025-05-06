@@ -3,7 +3,7 @@ import { createBrowserRouter, redirect } from "react-router";
 import pages from "./pages";
 import redirects from "./redirects";
 
-const NotFound = lazy(() => import("../pages/NotFound"));
+const NotFound = lazy(() => import("../pages/NotFound/NotFound"));
 
 export const router = createBrowserRouter([
   ...pages.map(([path, Component]) => ({
