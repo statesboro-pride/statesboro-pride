@@ -39,7 +39,7 @@ export function GetInvolved() {
                     <AutoAwesomeIcon fontSize="large" style={{ fill: "rgb(0, 49, 137)" }} />
                   </Typography>
                   <Typography variant="h4" component="div">
-                    Become a sponsor
+                    Become a sponsor/vendor
                   </Typography>
                   <br />
                   <Typography variant="body2" component="div">
