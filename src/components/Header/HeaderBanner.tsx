@@ -8,6 +8,8 @@ export type HeaderBannerProps = {
 } & React.PropsWithChildren;
 
 export function HeaderBanner(props: HeaderBannerProps) {
+  const width = window.innerWidth;
+
   const [xsBackgroundImage, mdBackgroundImage] =
     typeof props.backgroundImage === "string" ? [props.backgroundImage, props.backgroundImage] : props.backgroundImage;
 
@@ -20,6 +22,14 @@ export function HeaderBanner(props: HeaderBannerProps) {
 
   return (
     <>
+      <link
+        rel="preload"
+        fetchPriority="high"
+        as="image"
+        href={width > 900 ? mdBackgroundImage : xsBackgroundImage}
+        type="image/webp"
+      />
+
       <Box style={xsContainerStyle} sx={{ display: { xs: "block", md: "none" } }} className="header-banner">
         <Box className="header-banner-wrapper">
           <Box className="header-banner-content">{props.children}</Box>
