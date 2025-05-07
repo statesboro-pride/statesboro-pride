@@ -2,9 +2,9 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-import BannerText from "../../components/BannerText";
+import BannerText from "../../components/Banner/BannerText";
 
-export function GetSupport() {
+export default function GetSupport() {
   return (
     <Stack direction={{ xs: "column-reverse", md: "row" }} spacing={{ xs: 2, md: 10 }}>
       <Box sx={{ textAlign: { xs: "center", md: "inherit" }, width: "100%" }}>
@@ -25,5 +25,3 @@ export function GetSupport() {
     </Stack>
   );
 }
-
-export default GetSupport;

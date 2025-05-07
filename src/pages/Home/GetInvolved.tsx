@@ -2,9 +2,9 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-import BannerText from "../../components/BannerText";
+import BannerText from "../../components/Banner/BannerText";
 
-export function GetInvolved() {
+export default function GetInvolved() {
   return (
     <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 10 }}>
       <div style={{ width: "100%" }}>
@@ -29,5 +29,3 @@ export function GetInvolved() {
     </Stack>
   );
 }
-
-export default GetInvolved;

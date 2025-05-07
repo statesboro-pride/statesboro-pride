@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 
-export function Vendor() {
+export default function Vendor() {
   return (
     <>
       <Typography variant="h4" component="p" style={{ textAlign: "center" }}>
@@ -40,5 +40,3 @@ export function Vendor() {
     </>
   );
 }
-
-export default Vendor;

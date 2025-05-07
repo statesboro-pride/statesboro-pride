@@ -14,7 +14,7 @@ export type FormValues = {
   [k in keyof FormInputs]: string;
 };
 
-export function useFormInputs(): FormInputs {
+export default function useFormInputs(): FormInputs {
   const firstName = useRef<FormInput>(null);
   const lastName = useRef<FormInput>(null);
   const pronouns = useRef<FormInput>(null);
@@ -32,5 +32,3 @@ export function useFormInputs(): FormInputs {
     message,
   };
 }
-
-export default useFormInputs;

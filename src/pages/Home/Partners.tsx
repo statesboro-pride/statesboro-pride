@@ -2,7 +2,7 @@ import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 
-export function Partners() {
+export default function Partners() {
   return (
     <Stack direction="column" spacing={5} style={{ textAlign: "center" }}>
       <Typography variant="h2">Community Partners</Typography>
@@ -47,5 +47,3 @@ export function Partners() {
     </Stack>
   );
 }
-
-export default Partners;

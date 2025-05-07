@@ -2,9 +2,9 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
-import BannerText from "../../components/BannerText";
+import BannerText from "../../components/Banner/BannerText";
 
-export function Newsletter() {
+export default function Newsletter() {
   return (
     <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 10 }}>
       <Box sx={{ width: "100%", display: { xs: "none", md: "block" } }}>
@@ -17,7 +17,11 @@ export function Newsletter() {
       <Box sx={{ textAlign: { xs: "center", md: "inherit" }, width: "100%" }}>
         <BannerText>Newsletter</BannerText>
         <p>Fill our the form for our newsletter so you can receive news and updates from us.</p>
-        <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdv8yCaBssOZLhAk4fwaTRoUv0CGGCl-XHaCThgd0BrLTixwg/viewform?usp=dialog" aria-label="Use this form to reach out so that we can welcome you.">
+        <Link
+          target="_blank"
+          href={import.meta.env.VITE_NEWSLETTER_FORM_URL}
+          aria-label="Use this form to reach out so that we can welcome you."
+        >
           <Button size="large" variant="contained" sx={{ minWidth: "40%", backgroundColor: "black" }}>
             Newsletter Sign-up
           </Button>
@@ -26,5 +30,3 @@ export function Newsletter() {
     </Stack>
   );
 }
-
-export default Newsletter;

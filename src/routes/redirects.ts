@@ -13,10 +13,10 @@ export const redirects: [string, string][] = [
   ["/links", "https://linktr.ee/statesboropride"],
 
   // Forms
-  ["/volunteer", "https://docs.google.com/forms/d/e/1FAIpQLSdPqyZaFdN67yi5iOndEEno76UEZfyH4NcwDflFMcAqOu8cUQ/viewform"],
-  ["/vendor", "https://docs.google.com/forms/d/e/1FAIpQLSeHz6okrSX5gHcgohns1K6LsHcHNo-OLMe0pAJs0-btTVyW_Q/viewform"],
-  ["/pageant", "https://docs.google.com/forms/d/e/1FAIpQLScThLfu7MWLbKmoXDmZYnNv9ksedo_08RFZ51Vm01s0FMkbgg/viewform"],
-  ["/nominate", "https://docs.google.com/forms/d/e/1FAIpQLSeE4fUvElr96bo4hoY8MNFExkkZdwf8vGrUGeo9cxykXXj-xg/viewform"],
+  ["/volunteer", import.meta.env.VITE_VOLUNTEER_FORM_URL],
+  ["/vendor", import.meta.env.VITE_VENDOR_FORM_URL],
+  ["/pageant", import.meta.env.VITE_PAGEANT_FORM_URL],
+  ["/nominate", import.meta.env.VITE_NOMINATE_FORM_URL],
 
   // Donations & Shop
   ["/shop", "https://statesboro-pride.printify.me"],

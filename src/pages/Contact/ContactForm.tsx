@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 import handleSubmit from "./handleSubmit";
 import useFormInputs from "./useFormInputs";
 
-export function ContactForm() {
+export default function ContactForm() {
   const inputs = useFormInputs();
 
   return (
@@ -79,5 +79,3 @@ export function ContactForm() {
     </Box>
   );
 }
-
-export default ContactForm;

@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import WaterBottle from "./WaterBottle";
 
-export function ShopBoroPride() {
+export default function ShopBoroPride() {
   return (
     <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 5 }}>
       <div style={{ width: "100%" }}>
@@ -31,5 +31,3 @@ export function ShopBoroPride() {
     </Stack>
   );
 }
-
-export default ShopBoroPride;

@@ -1,7 +1,15 @@
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
+import type { CSSProperties } from "react";
+import type { ResponsiveStyleValue } from "@mui/system";
 
-export function Sponsor() {
+const stackDirection: ResponsiveStyleValue<"column" | "row" | "row-reverse" | "column-reverse"> = {
+  xs: "column",
+  lg: "row",
+};
+const imgStyle: CSSProperties = { maxWidth: "100%", objectFit: "contain" };
+
+export default function Sponsor() {
   return (
     <>
       <Typography variant="h4" component="p">
@@ -13,16 +21,14 @@ export function Sponsor() {
           contact us
         </a>
       </p>
-      <Stack direction={{ xs: "column", lg: "row" }} spacing={1}>
+      <Stack direction={stackDirection} spacing={1}>
         <div>
-          <img src="/images/Sponsorship_Packet_1.webp" style={{ maxWidth: "100%", objectFit: "contain" }} />
+          <img src="/images/Sponsorship_Packet_1.webp" style={imgStyle} />
         </div>
         <div>
-          <img src="/images/Sponsorship_Packet_2.webp" style={{ maxWidth: "100%", objectFit: "contain" }} />
+          <img src="/images/Sponsorship_Packet_2.webp" style={imgStyle} />
         </div>
       </Stack>
     </>
   );
 }
-
-export default Sponsor;

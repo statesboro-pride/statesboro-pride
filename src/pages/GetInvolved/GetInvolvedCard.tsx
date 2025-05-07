@@ -11,7 +11,7 @@ export type GetInvolvedCardProps = {
   icon: ReactNode;
 };
 
-export function GetInvolvedCard(props: GetInvolvedCardProps) {
+export default function GetInvolvedCard(props: GetInvolvedCardProps) {
   const cardStyle: React.CSSProperties = {
     backgroundColor: "rgba(240, 240, 240, 0.94)",
     textAlign: "center",
@@ -37,5 +37,3 @@ export function GetInvolvedCard(props: GetInvolvedCardProps) {
     </Card>
   );
 }
-
-export default GetInvolvedCard;

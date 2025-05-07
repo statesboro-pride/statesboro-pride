@@ -1,4 +1,4 @@
-export function WaterBottle() {
+export default function WaterBottle() {
   return (
     <>
       <svg data-image-mask-id="250649fdeab70fa5e9bb" width="0" height="0" style={{ position: "absolute" }}>
@@ -23,5 +23,3 @@ export function WaterBottle() {
     </>
   );
 }
-
-export default WaterBottle;
