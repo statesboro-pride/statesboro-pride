@@ -11,7 +11,7 @@ export default function Newsletter() {
         <img
           src="/images/Pride_Hands_Forming_Heart.webp"
           alt="A woman forming a heart with her hands"
-          style={{ maxWidth: "100%" }}
+          style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
         />
       </Box>
       <Box sx={{ textAlign: { xs: "center", md: "inherit" }, width: "100%" }}>

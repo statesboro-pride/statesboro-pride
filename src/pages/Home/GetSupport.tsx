@@ -20,7 +20,11 @@ export default function GetSupport() {
         </Link>
       </Box>
       <div style={{ width: "100%" }}>
-        <img src="/images/Pride_Hands_Support.webp" style={{ maxWidth: "100%" }} alt="Two women holding hands" />
+        <img
+          src="/images/Pride_Hands_Support.webp"
+          style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
+          alt="Two women holding hands"
+        />
       </div>
     </Stack>
   );

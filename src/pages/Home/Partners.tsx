@@ -13,7 +13,11 @@ export default function Partners() {
           style={{ width: "100%" }}
           aria-label="Georgia Equality"
         >
-          <img src="/images/partners/Georgia-Equality.webp" style={{ maxWidth: "100%" }} alt="Georgia Equality" />
+          <img
+            src="/images/partners/Georgia-Equality.webp"
+            style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
+            alt="Georgia Equality"
+          />
         </Link>
         <Link
           href="https://www.facebook.com/OneBoroStatesboro"
@@ -21,7 +25,11 @@ export default function Partners() {
           style={{ width: "100%" }}
           aria-label="One Boro"
         >
-          <img src="/images/partners/One-Boro.webp" style={{ maxWidth: "100%" }} alt="One Boro" />
+          <img
+            src="/images/partners/One-Boro.webp"
+            style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
+            alt="One Boro"
+          />
         </Link>
         <Link
           href="https://linktr.ee/GSULGBTQalumni"
@@ -31,7 +39,7 @@ export default function Partners() {
         >
           <img
             src="/images/partners/GSU-Alumni-LGBTQ.webp"
-            style={{ maxWidth: "100%" }}
+            style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
             alt="Georgia Southern Alumni LGBTQ+ Network"
           />
         </Link>
@@ -41,7 +49,11 @@ export default function Partners() {
           style={{ width: "100%" }}
           aria-label="Crown Magnolia Court of Georgia"
         >
-          <img src="/images/partners/CMCGA.webp" style={{ maxWidth: "100%" }} alt="Crown Magnolia Court of Georgia" />
+          <img
+            src="/images/partners/CMCGA.webp"
+            style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
+            alt="Crown Magnolia Court of Georgia"
+          />
         </Link>
       </Stack>
     </Stack>

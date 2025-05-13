@@ -11,7 +11,7 @@ export default function GetInvolved() {
         <img
           src="/images/Pride_Man_Holding_Heart.webp"
           alt="A man holding holding a paper heart"
-          style={{ maxWidth: "100%" }}
+          style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }}
         />
       </div>
       <Box sx={{ textAlign: { xs: "center", md: "inherit" }, width: "100%" }}>

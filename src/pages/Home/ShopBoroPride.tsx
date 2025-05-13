@@ -8,7 +8,7 @@ export default function ShopBoroPride() {
   return (
     <Stack direction={{ xs: "column", md: "row" }} spacing={{ xs: 2, md: 5 }}>
       <div style={{ width: "100%" }}>
-        <img src="/images/Dog_Bandana.webp" style={{ maxWidth: "100%" }} alt="Cute dog wearing pride bandana" />
+        <img src="/images/Dog_Bandana.webp" style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }} alt="Cute dog wearing pride bandana" />
       </div>
       <div style={{ width: "100%", textAlign: "center" }}>
         <Typography variant="h2">SHOP BORO PRIDE!</Typography>

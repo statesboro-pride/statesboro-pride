@@ -18,7 +18,7 @@ export default function WaterBottle() {
           height: "100%",
         }}
       >
-        <img src="/images/Water_Bottle.webp" style={{ maxWidth: "100%" }} alt="Boro Pride water bottle" />
+        <img src="/images/Water_Bottle.webp" style={{ maxWidth: "100%", aspectRatio: 1, objectFit: "cover" }} alt="Boro Pride water bottle" />
       </div>
     </>
   );
