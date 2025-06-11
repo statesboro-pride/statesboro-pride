@@ -102,6 +102,19 @@ export const HealthAndWellbeing: ResourceLink[] = [
       </>
     ),
   },
+  {
+    title: "Thrive | LGBTQ+ Care",
+    href: "https://www.yourthrivecare.com",
+    description: (
+      <>
+        Thrive is a safe, affirming healthcare membership community for LGBTQ+ individuals and families. We offer
+        inclusive primary care, gender-affirming care, and wellness services tailored to your unique journey-all in a
+        supportive environment designed to help you thrive with confidence and compassion. Whether you're seeking
+        trusted medical care, gender-affirming support, or wellness enhancements, Thrive is here to walk beside you
+        every step of the way.
+      </>
+    ),
+  },
 ];
 
 export const Education: ResourceLink[] = [
