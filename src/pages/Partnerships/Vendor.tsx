@@ -34,6 +34,13 @@ export default function Vendor() {
         ), PayPal (<a href="/paypal">@StatesboroPride912</a>), cash or check made payable to Statesboro Pride.
       </p>
       <p>
+        You may also pay with debit or credit via{" "}
+        <a href="https://tinyurl.com/BPFestivalPayment" target="_blank">
+          Donorbox
+        </a>
+        .
+      </p>
+      <p>
         Setup details will be provided closer to the festival date. Registration is not complete and space is not
         reserved until payment is complete.
       </p>
