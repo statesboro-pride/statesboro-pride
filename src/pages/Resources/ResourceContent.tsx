@@ -31,6 +31,11 @@ export const Advocacy: ResourceLink[] = [
     href: "https://nbjc.org/",
     description: "Working to end racism, homophobia, and LGBTQ/SGL bias and stigma",
   },
+  {
+    title: "Students with Disabilities Advocacy Group",
+    href: "https://drive.google.com/file/d/1kjIByeUrs7e1Ky4eRR00wR4_c379SnNZ/view?usp=sharing",
+    description: "Intersectional Disability and LGBTQ+ Resources"
+  }
 ];
 
 export const HealthAndWellbeing: ResourceLink[] = [
