@@ -21,7 +21,7 @@ export default function Resources() {
         <br />
         <Stack direction={{ xs: "column", md: "row" }} spacing={2} style={{ width: "100%" }}>
           <ResourceList title="Advocacy" items={Content.Advocacy} />
-          <ResourceList title="Health &amp; Wellbeing" items={Content.HealthAndWellbeing} />
+          <ResourceList title="Marriage Protections" items={Content.MarriageProtections} />
           <ResourceList title="Education" items={Content.Education} />
         </Stack>
         <br />
@@ -29,6 +29,10 @@ export default function Resources() {
           <ResourceList title="Parenting" items={Content.Parenting} />
           <ResourceList title="Social" items={Content.Social} />
           <ResourceList title="Allyship" items={Content.Allyship} />
+        </Stack>
+        <br />
+        <Stack direction={{ xs: "column", md: "row" }} spacing={2} style={{ width: "100%" }}>
+          <ResourceList title="Health &amp; Wellbeing" items={Content.HealthAndWellbeing} />
         </Stack>
       </Body>
     </>

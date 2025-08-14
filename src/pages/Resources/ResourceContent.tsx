@@ -8,11 +8,12 @@ export type ResourceLink = {
 
 export type ResourceContent = {
   Advocacy: ResourceLink[];
-  HealthAndWellbeing: ResourceLink[];
+  MarriageProtections: ResourceLink[];
   Education: ResourceLink[];
   Parenting: ResourceLink[];
   Social: ResourceLink[];
   Allyship: ResourceLink[];
+  HealthAndWellbeing: ResourceLink[];
 };
 
 export const Advocacy: ResourceLink[] = [
@@ -34,8 +35,86 @@ export const Advocacy: ResourceLink[] = [
   {
     title: "Students with Disabilities Advocacy Group",
     href: "https://drive.google.com/file/d/1kjIByeUrs7e1Ky4eRR00wR4_c379SnNZ/view?usp=sharing",
-    description: "Intersectional Disability and LGBTQ+ Resources"
-  }
+    description: "Intersectional Disability and LGBTQ+ Resources",
+  },
+];
+
+export const MarriageProtections: ResourceLink[] = [
+  {
+    title: "Preparing for Marriage Equality to be Overturned",
+    href: "https://www.tiktok.com/t/ZT6HH9bEo/",
+    description: (
+      <>
+        From UnderTheDeskNews: It won't just stop at "gay marriage" either - banning interfaith, interracial marriages
+        is floating around. As are legislation to force marriages between children and adults to prevent abortion are
+        all in the works.
+      </>
+    ),
+  },
+  {
+    title: "Obergefell v. Hodges, 576 U.S. 644 (2015)",
+    href: "https://www.supremecourt.gov/opinions/boundvolumes/576BV.pdf#page=689",
+    description: (
+      <>
+        Supreme Court decision that held The Fourteenth Amendment requires a State to license a marriage between two
+        people of the same sex and to recognize a marriage between two people of the same sex when their marriage was
+        lawfully licensed and performed out-of-State. The judgment of the Court of Appeals for the Sixth Circuit is
+        reversed. Baker v. Nelson overruled.
+      </>
+    ),
+  },
+];
+
+export const Education: ResourceLink[] = [
+  {
+    title: "GLSEN",
+    href: "https://www.glsen.org/",
+    description: <>Creating a better world for LGBTQ students</>,
+  },
+  {
+    title: "Lifeguard Workshop (The Trevor Project)",
+    href: "https://www.thetrevorproject.org/education/",
+    description: <>Free online learning resources for adults who work with LGBTQ youth</>,
+  },
+];
+
+export const Parenting: ResourceLink[] = [
+  {
+    title: "Colage",
+    href: "https://www.colage.org/",
+    description: <>Dedicated to nurturing, supporting and empowering people with LGBTQ+ caregivers</>,
+  },
+  {
+    title: "Family Acceptance Project",
+    href: "https://familyproject.sfsu.edu/",
+    description: <>Strengthening families to support LGBTQ youth</>,
+  },
+];
+
+export const Social: ResourceLink[] = [
+  {
+    title: "First City Pride Center",
+    href: "https://www.firstcitypridecenter.org/",
+    description: <>Inclusive advocacy, social, and service organization in Savannah, GA</>,
+  },
+  {
+    title: "SC Pride",
+    href: "https://scpride.org/",
+    description: <>South Carolina Pride Movement</>,
+  },
+];
+
+export const Allyship: ResourceLink[] = [
+  {
+    title: "Free2Luv",
+    href: "https://free2luv.org/5-ways-become-ally-lgbtq-youth/",
+    description: <>Learn how to be an ally for LGBTQ youth</>,
+  },
+  {
+    title: "Buffer",
+    href: "https://buffer.com/resources/lgbtqia-resources/",
+    description: <>Educational resources for learning to be an LGBTQ ally</>,
+  },
 ];
 
 export const HealthAndWellbeing: ResourceLink[] = [
@@ -119,57 +198,5 @@ export const HealthAndWellbeing: ResourceLink[] = [
         every step of the way.
       </>
     ),
-  },
-];
-
-export const Education: ResourceLink[] = [
-  {
-    title: "GLSEN",
-    href: "https://www.glsen.org/",
-    description: <>Creating a better world for LGBTQ students</>,
-  },
-  {
-    title: "Lifeguard Workshop (The Trevor Project)",
-    href: "https://www.thetrevorproject.org/education/",
-    description: <>Free online learning resources for adults who work with LGBTQ youth</>,
-  },
-];
-
-export const Parenting: ResourceLink[] = [
-  {
-    title: "Colage",
-    href: "https://www.colage.org/",
-    description: <>Dedicated to nurturing, supporting and empowering people with LGBTQ+ caregivers</>,
-  },
-  {
-    title: "Family Acceptance Project",
-    href: "https://familyproject.sfsu.edu/",
-    description: <>Strengthening families to support LGBTQ youth</>,
-  },
-];
-
-export const Social: ResourceLink[] = [
-  {
-    title: "First City Pride Center",
-    href: "https://www.firstcitypridecenter.org/",
-    description: <>Inclusive advocacy, social, and service organization in Savannah, GA</>,
-  },
-  {
-    title: "SC Pride",
-    href: "https://scpride.org/",
-    description: <>South Carolina Pride Movement</>,
-  },
-];
-
-export const Allyship: ResourceLink[] = [
-  {
-    title: "Free2Luv",
-    href: "https://free2luv.org/5-ways-become-ally-lgbtq-youth/",
-    description: <>Learn how to be an ally for LGBTQ youth</>,
-  },
-  {
-    title: "Buffer",
-    href: "https://buffer.com/resources/lgbtqia-resources/",
-    description: <>Educational resources for learning to be an LGBTQ ally</>,
   },
 ];
