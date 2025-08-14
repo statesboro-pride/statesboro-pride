@@ -41,13 +41,12 @@ export const Advocacy: ResourceLink[] = [
 
 export const MarriageProtections: ResourceLink[] = [
   {
-    title: "Preparing for Marriage Equality to be Overturned",
-    href: "https://www.tiktok.com/t/ZT6HH9bEo/",
+    title: "LGBTQ+ Pride Planning",
+    href: "https://www.prideplans.com/",
     description: (
       <>
-        From UnderTheDeskNews: It won't just stop at "gay marriage" either - banning interfaith, interracial marriages
-        is floating around. As are legislation to force marriages between children and adults to prevent abortion are
-        all in the works.
+        Estate Planning for the LGBTQ+ Community! Join LGBTQ+ Pride Planning and begin to plan, define, and secure the
+        future for you and your loved ones (even fur babies!)
       </>
     ),
   },
